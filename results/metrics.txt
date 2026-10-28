@@ -1,0 +1,22 @@
+BREAST CANCER CLASSIFICATION RESULTS
+=============================================
+Dataset samples: 569
+Features: 30
+Training samples: 455
+Testing samples: 114
+Accuracy: 0.9474 (94.74%)
+ROC-AUC: 0.9927
+
+Classification Report:
+              precision    recall  f1-score   support
+
+   malignant     0.9500    0.9048    0.9268        42
+      benign     0.9459    0.9722    0.9589        72
+
+    accuracy                         0.9474       114
+   macro avg     0.9480    0.9385    0.9429       114
+weighted avg     0.9474    0.9474    0.9471       114
+
+Confusion Matrix:
+[[38  4]
+ [ 2 70]]
